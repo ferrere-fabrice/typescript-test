@@ -1,0 +1,21 @@
+{
+  "name": "ohce",
+  "version": "1.0.0",
+  "description": "Template typescript projet",
+  "scripts": {
+    "test": "jest",
+    "start": "tsc src/index.ts --outdir build && node build/index.js"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Fabrice FERRRERE",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "jest": "^29.5.0"
+  }
+}
